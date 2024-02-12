@@ -3,11 +3,7 @@
 ## Instalacion
 
 
-Primero se tiene que crear un archivo .env en el root del proyecto y agregar los valores del archivo .env.example .
-
-`PORT`
-`USER_POSTGRESQL`
-`PASSWORD_POSTGRESQL`
+Primero se tiene que crear un archivo `.env` en el root del proyecto y agregar los valores del archivo `.env.example` .
 
 Luego para crear la base de datos usar el archivo database.sql que se encuentra dentro de la carpeta database `daatabase.sql`.
 

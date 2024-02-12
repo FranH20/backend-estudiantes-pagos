@@ -1,5 +1,5 @@
 export const createProcedurePersonaMovimiento = () =>
-  `CALL creando_persona_con_movimientos($1, $2, $3, $4, $5)`;
+  `CALL creando_persona_con_movimientos($1, $2, $3, $4, $5, $6)`;
 
 export const obtenerPersona = (id) =>
   `SELECT nid_persona, nom_persona FROM persona WHERE nid_persona = ${id}`;
